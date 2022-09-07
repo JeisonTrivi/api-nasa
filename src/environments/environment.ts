@@ -2,8 +2,12 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+import { APP_ID } from '@angular/core';
+
 export const environment = {
-  production: false
+  production: false,
+  API_URL: 'https://api.nasa.gov/',
+  KEY_PUBLIC: '3mggIXM7VkzrmsCa3k9M00QhvZaQc9exUo6OocVl',
 };
 
 /*
